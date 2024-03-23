@@ -101,4 +101,7 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repository: git@github.com:Rayd62/itguruhub-blog.git
+  branch: main
+  message: "Site updated: {{now('YYYY-MM-DD HH:mm:ss')}}"

@@ -66,7 +66,7 @@ World ID  Name               Num Ports  Networks
 
 可以看到 `Site1_GW` 的虚拟机下，有两张虚拟网卡，我们需要记下 `Port ID` 的值。这里记录 `33554578`。
 
-# 使用 `pktcap-um` 抓包
+# 使用 `pktcap-uw` 抓包
 
 `pktcap-uw --switchport 33554578 -c 2000 -o capture1.pcap`
 
